@@ -5,10 +5,10 @@ let mynum=6;
 
 let  userId=334455;
 // userId="aayush";
-let isLoggedIn:Boolean=false;
+let isLoggedIn:boolean=false;
 console.log(isLoggedIn.valueOf());
 
-let hero:String;
+let hero:string;
 function getHero(){
     return "Thor"
 }
