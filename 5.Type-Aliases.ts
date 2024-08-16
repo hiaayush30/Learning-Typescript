@@ -13,7 +13,7 @@ type User2={
     readonly _id:string
     name:string
     email:string
-    creditDetails?:number
+    creditDetails?:number|string //union
 }
 
 const myUser:User2={
@@ -24,6 +24,7 @@ const myUser:User2={
 myUser.email='hello@gmail.com';
 // myUser._id='123'; //cant do it
 
+//intersection
 type MegaUser=User & User2 & {salary:number};
 
 const newUser:MegaUser={

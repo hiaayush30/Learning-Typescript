@@ -26,4 +26,14 @@ const heroes=["thor","siderman"];
 heroes.map((hero):string=>{
     return `hello ${hero}`;
 })
+
+
+//cb expects not arguments and returns void
+const hey1=(cb:()=>void):void=>{
+    setTimeout(()=>{cb()},1000);
+ }
+ 
+ const a=()=>{console.log('hey')}
+ hey1(a);
+
 export{}
