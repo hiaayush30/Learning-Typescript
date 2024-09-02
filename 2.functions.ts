@@ -3,7 +3,7 @@ function addTwo(num:number):number{
 }
 let result=addTwo(5);
 
-function getUpper(val:string){
+function getUpper(val:string,val2?:number,val3:number=100){
     return val.toUpperCase();
 }
 const res=getUpper("hello");

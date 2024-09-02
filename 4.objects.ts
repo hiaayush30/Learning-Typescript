@@ -3,9 +3,6 @@ const  User:object={
     email:'aayush@gmail.com',
     isActive:true
 }
-
-
-
 // const createUser=({name:string,isPaid:boolean})=>{} //incorrect way
 const createUser = ({ name, isPaid }: { name: string; isPaid: boolean }) => {};
 createUser({name:"Aayush",isPaid:true});
