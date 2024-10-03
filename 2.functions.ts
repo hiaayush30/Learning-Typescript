@@ -28,7 +28,7 @@ heroes.map((hero):string=>{
 })
 
 
-//cb expects not arguments and returns void
+//cb expects no arguments and returns void
 const hey1=(cb:()=>void):void=>{
     setTimeout(()=>{cb()},1000);
  }

@@ -1,10 +1,10 @@
-//TypeScript follows the ES6 module system, using import and export statements to share code between different files.
+// TypeScript follows the ES6 module system, using import and export statements to share code between different files.
 
 // commonjs
 // const express=require('express');
 // module.exports=express;
 
-//es6 (in ts use this)
+// es6 (in ts use this)
 // import express from'express'
 // export const express
 
