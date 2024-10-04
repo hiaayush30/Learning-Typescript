@@ -26,7 +26,7 @@ class Sparrow{
         console.log('chirping!')
     }
 }
-
+console.log(document);
 function animalSound(animal:Cat|Sparrow){
    if(animal instanceof Cat) animal.meow();
    else animal.chirp()
