@@ -5,7 +5,7 @@ interface MyPerson {
     readonly fname: string;
     lname: string;
     age?: number
-    code(time: number): void | number
+    code:(time:number)=>void|number
 }
 
 const exampleObject: MyPerson = {

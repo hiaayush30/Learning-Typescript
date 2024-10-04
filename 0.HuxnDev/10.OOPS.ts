@@ -14,6 +14,14 @@ class Person2{
         this.age=age;
         this.marks=marks;
     }
+
+    // yo():void{
+    //     console.log('yo')
+    // }
+    //or
+    yo=():void=>{
+        console.log('yo');
+    }
     //getters and setters in TS
     get myMarks():number{
         return this.marks
