@@ -31,3 +31,14 @@ console.log(SeatChoise1.AISLE);
 //   //   and so on...
 // 		res.status(ResponseStatus.Success).json({});
 // })
+enum Weather{
+    Sunny=5,
+    Cloudy,
+    Rainy,
+    Snowy
+}
+const w=Weather.Rainy;
+console.log(typeof w);
+console.log(w);
+console.log(Weather);
+
