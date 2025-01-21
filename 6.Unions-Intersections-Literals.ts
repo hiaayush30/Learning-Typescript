@@ -12,17 +12,18 @@ const p1:CustomPerson={
     name:"Aayush",
     id:1,
     age:21,
-    title:"yo"
+    title:"yo",
 }
 
 //Union Types
 const pass:string|number=23; //union
-type CustomPerson1=Person1 | Employee;
+type CustomPerson1=Person1 | Employee;  
+//either Person1 or EMployee should be present in full with (optional) some properties of other
 function foo (param:string|string[]){}
 const p2:CustomPerson1={
     name:"aayush",
     title:'yo',
-    id:1
+    id:1,
 }
 
 const items:(number|string)[]=["yo",1,2,"hey"];  //number or string as element
